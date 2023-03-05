@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+        <variable
+            name="Cirvie"
+            type="com.example.circleview.viewmodel.CircleViewModel" />
+        <variable
+            name="image"
+            type="String" />
+    </data>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            app:image="@{image}"
+            android:id="@+id/imagecircle"
+            android:layout_width="match_parent"
+            android:layout_height="200dp">
+
+        </ImageView>
+
+        <RadioGroup
+            android:id="@+id/imageradio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="200dp"
+            android:orientation="horizontal" >
+
+        </RadioGroup>
+    </RelativeLayout>
+</layout>

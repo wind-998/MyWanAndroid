@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/news"
+        android:title="@string/latestnews"
+        android:icon="@drawable/ic_100tb"/>
+<!--    <item-->
+<!--        android:id="@+id/news2"-->
+<!--        android:title="l乐园"-->
+<!--        android:icon="@drawable/ic_100tb"/>-->
+    <item
+        android:id="@+id/news3"
+        android:title="乐趣"
+        android:icon="@drawable/ic_100tb"/>
+    <item
+        android:id="@+id/new4"
+        android:title="学习"
+        android:icon="@drawable/ic_100tb"/>
+</menu>
